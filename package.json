@@ -1,6 +1,6 @@
 {
   "name": "hls.js-light-ext",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "license": "MIT",
   "description": "JavaScript HLS client using MediaSourceExtension",
   "homepage": "https://hlsjs-light.mistweaver.co",

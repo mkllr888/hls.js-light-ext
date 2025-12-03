@@ -1,4 +1,4 @@
-hls.js light extended
+hls.js v1.5.7 light extended
 ============
 
 This is an extended [light flavour] of [hls.js] conveniently packaged
