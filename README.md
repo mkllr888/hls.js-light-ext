@@ -1,15 +1,18 @@
-hls.js light
+hls.js light extended
 ============
 
-This is just the [light flavour] of [hls.js] conveniently packaged
+This is an extended [light flavour] of [hls.js] conveniently packaged
 as a node module and published on the [NPM registry].
+
+**EXTENDED**
+contains Audio Stream Controller
 
 **hls.js light** does not include alternate-audio, subtitles, CMCD, EME (DRM), or Variable Substitution support.
 
 In addition, the following types are not available:
 
-- `AudioStreamController`
-- `AudioTrackController`
+- `AudioStreamController` INCLUDED
+- `AudioTrackController` INCLUDED
 - `CuesInterface`
 - `EMEController`
 - `SubtitleStreamController`
@@ -22,13 +25,13 @@ In addition, the following types are not available:
 via NPM
 
 ```sh
-npm i @mistweaverco/hls.js-light
+npm i hls.js-light-ext
 ```
 
 or Yarn
 
 ```sh
-yarn add @mistweaverco/hls.js-light
+yarn add hls.js-light-ext
 ```
 
 ## Usage
@@ -38,7 +41,7 @@ Basic usage would look something like this:
 .js
 
 ```javascript
-import HlsJs from '@mistweaverco/hls.js-light'
+import HlsJs from '/hls.js-light-ext'
 
 const videoElement = document.querySelector('video')
 const videoSource = videoElement.dataset.src as string
